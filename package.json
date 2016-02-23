@@ -2,14 +2,17 @@
   "name": "steam-mass-messenger",
   "version": "0.1.0",
   "description": "Message all your Steam friends.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "prompt": "^1.0.0",
     "steam": "^1.4.0"
+  },
+  "bin": {
+   "steam-mass-messenger": "./lib/index.js"
   }
 }
