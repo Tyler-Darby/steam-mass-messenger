@@ -9,10 +9,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "nexe": "^1.1.0",
     "prompt": "^1.0.0",
     "steam": "^1.4.0"
   },
   "bin": {
-   "steam-mass-messenger": "./lib/index.js"
+    "steam-mass-messenger": "./lib/index.js"
   }
 }
