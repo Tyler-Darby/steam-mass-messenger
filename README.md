@@ -1,2 +1,2 @@
 # steam-mass-messenger
-##Spam your friends.
+## Spam your friends.
